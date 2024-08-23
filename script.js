@@ -5,10 +5,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     event.preventDefault();
     
     const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
+    //const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('error-message');
 
-    if (allowedUsers.includes(email) && password) { // Replace with actual authentication logic
+    if (allowedUsers.includes(email)) { // Replace with actual authentication logic
         localStorage.setItem('userEmail', email);
         window.location.href = "profile.html";
     } else {
