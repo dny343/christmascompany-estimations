@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("./login-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.layer {
+    background-color: rgba(34, 33, 1, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-logo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
+    padding: 1% 0% 1% 0%;
+    
+}
+
+
+
+.top-logo h2{
+    font-size: .8rem;
+    flex: content;
+    color: aliceblue;
+}
+
+.btn-info{
+    background-color: #c19214;
+    border: none;
+    color: aliceblue;
+    
+}
+
+h1{
+    font-size: larger;
+    text-align: center;
+    color: #c19214;
+}
+
+button{
+    
+    padding: 14px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.about{
+    margin-left: 10%;
+}
