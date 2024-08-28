@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     if (allowedUsers.includes(email)) { // Replace with actual authentication logic
         localStorage.setItem('userEmail', email);
-        window.location.href = "profile.html";
+        window.location.href = "project-list.html";
     } else {
         errorMessage.textContent = "Invalid email or password.";
     }
