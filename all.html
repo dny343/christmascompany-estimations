@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estimation Tool | Christmas Company</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+        <img src="https://christmascompany.com/wp-content/uploads/2023/09/Christmas-Company.svg" alt="" width="100%">
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <div class="menu-title">Happy Estimating &#128525;!</div>
+
+          <li class="item">
+            <a href="create-project.html">Estimate a New Project</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Projects</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Projects
+              </div>
+              <li class="item">
+                <a href="all.html">All projects</a>
+              </li>
+              <li class="item">
+                <a href="open.html">Open projects</a>
+              </li>
+              <li class="item">
+                <a href="won.html">Won projects</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span>Clients</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Clients
+              </div>
+              <li class="item">
+                <a href="company.html">Company</a>
+              </li>
+              <li class="item">
+                <a href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="item">
+            <a href="invoice.html">Invoices</a>
+          </li>
+
+          <li class="item">
+            <a href="po.html">Purchase Orders</a>
+          </li>
+          <li>
+            <button onclick="logout()" class="btn btn-info">Logout</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+        <iframe class="airtable-embed" src="https://airtable.com/embed/appRkvJSa8B5WU0h5/shrWgbyaYLuDbyWEq" frameborder="0" onmousewheel="" style="width:100%;height:100vh; margin-top: 0%;"></iframe>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
