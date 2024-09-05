@@ -118,7 +118,7 @@
   justify-content: center;
   height: 100vh;
   z-index: 100;
-  background: #e7f2fd;
+  background: #FFF;
 }
 .main h1 {
   color: #11101d;
@@ -130,7 +130,7 @@
     background-color: #c19214;
     border: none;
     color: aliceblue;
-    padding-left: 20px;
+    
     
 }
 
@@ -144,4 +144,12 @@ button{
     cursor: pointer;
     border-radius: 15px;
     font-size: 14px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

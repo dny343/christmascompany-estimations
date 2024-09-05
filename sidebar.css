@@ -122,3 +122,11 @@ button{
     border-radius: 15px;
     font-size: 14px;
 }
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }

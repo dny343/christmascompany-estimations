@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #FFF;
     background-image: url("./login-background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,3 +62,11 @@ button:hover {
     color: red;
     margin-top: 10px;
 }
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
